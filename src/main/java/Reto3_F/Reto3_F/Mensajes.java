@@ -51,11 +51,11 @@ public class Mensajes implements Serializable {
         this.messageText = messageText;
     }
 
-    public Finca getFinca() {
+    public Finca getFarm() {
         return farm;
     }
 
-    public void setFinca(Finca farm) {
+    public void setFarm(Finca farm) {
         this.farm = farm;
     }
 

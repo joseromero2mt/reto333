@@ -77,11 +77,11 @@ public class Reservas implements Serializable  {
         this.status = status;
     }
 
-    public Finca getFinca() {
+    public Finca getFarm() {
         return farm;
     }
 
-    public void setFinca(Finca farm) {
+    public void setFarm(Finca farm) {
         this.farm = farm;
     }
 
