@@ -40,8 +40,8 @@ public class Finca implements Serializable{
     
     
     @ManyToOne
-    @JoinColumn(name = "category_id")
-    @JsonIgnoreProperties("farm")
+    @JoinColumn(name = "categoryId")
+    @JsonIgnoreProperties("farms")
     private Categorias category;
 
      @OneToMany(cascade = {CascadeType.PERSIST},mappedBy = "farm")
